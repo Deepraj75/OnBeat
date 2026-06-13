@@ -1,8 +1,8 @@
-## OnBeat
+# OnBeat
 
 An application which checks the user's rhythm and tells them how close to the beat they were.
 
-# Pictures
+## Pictures
 
 ![OnBeat icon](assets/logo.png)
 
@@ -10,11 +10,11 @@ An application which checks the user's rhythm and tells them how close to the be
 
 ![Rhythm Analysis](assets/Rhythm%20analysis.jpg)
 
-# Why I Built It
+## Why I Built It
 
 I am a guitarist and one of the things that I was struggling with, while I was thinking about what idea should become my first app, was rhythm. Staying in rhythm is fundamental for any musician. It is essential for a musician to catch every beat with precision. However, right now, to check how "on beat" they are, musicians have to rely on their own sense of timing, which is imperfect for beginners, or seek the help of a professional. This is why I made OnBeat - an app which checks how close to the beat the user is.
 
-# How It Works
+## How It Works
 
 The user starts out by setting a BPM, after which the app plays a four-beat metronome along which a user has to clap or play their instrument. I will refer to these events as "claps" for simplicity. The app records this and analyses the recording to detect the claps.
 
@@ -24,14 +24,14 @@ Once the claps are detected, the timings of the claps are noted and compared wit
 
 Since the clap detection algorithm isn't perfect, in case extra claps are detected due to some disturbance, only the first 4 claps are considered.
 
-# Features
+## Features
 
 - Adjustable BPM (30-240)
 - Four-beat metronome
 - Graph showing the sound wave produced
 - Grade assigned based on how "on beat" the user was
 
-# Tools Used
+## Tools Used
 
 - Dart as the programming language
 - Flutter as the UI framework
@@ -39,7 +39,7 @@ Since the clap detection algorithm isn't perfect, in case extra claps are detect
 - Android Studio for Android building tools
 - GIMP for creating the icon
 
-# Challenges
+## Challenges
 
 - Problem: I initially used the audioplayers package to play the metronome clicks, because of which I wasn't able to record audio and play the metronome at the same time.
   - Fix: I used the soloud package, which treats the metronome clicks as short sound effects, allowing them to be played while the app is recording audio.
@@ -47,7 +47,7 @@ Since the clap detection algorithm isn't perfect, in case extra claps are detect
 - Problem: The biggest challenge for me was making the clap detection algorithm accurate.
   - Fix: I tried out many different thresholds and skip times until the clap detection was mostly accurate.
 
-# Scope for Improvement
+## Scope for Improvement
 
 - The clap detection is still not perfect. It sometimes misses actual claps or adds extra ones.
 - The current duration of the metronome (4 beats) is too small.
