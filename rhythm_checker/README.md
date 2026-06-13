@@ -1,4 +1,4 @@
-# OnBeat
+## OnBeat
 
 An application which checks the user's rhythm and tells them how close to the beat they were.
 
@@ -56,3 +56,4 @@ Since the clap detection algorithm isn't perfect, in case extra claps are detect
 - The graph can show which points were detected as claps once the clap detection is perfected.
 - The app doesn't keep a history of the user's previous analyses.
 - The app doesn't tell the user whether they are rushing (ahead of the beat) or dragging (behind the beat).
+- Dosen't work on iOS
