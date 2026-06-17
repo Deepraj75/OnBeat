@@ -4,11 +4,11 @@ An application which checks the user's rhythm and tells them how close to the be
 
 ## Pictures
 
-![OnBeat icon](assets/logo.png)
+![OnBeat icon](rhythm_checker/assets/logo.png)
 
-![Home page](assets/Home%20page.jpg)
+![Home page](rhythm_checker/assets/Home%20page.jpg)
 
-![Rhythm Analysis](assets/Rhythm%20analysis.jpg)
+![Rhythm Analysis](rhythm_checker/assets/Rhythm%20analysis.jpg)
 
 ## Why I Built It
 
